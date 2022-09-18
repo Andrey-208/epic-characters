@@ -1,0 +1,120 @@
+{
+  "id":"epic-characters",
+  "name":"epic-characters",
+   "title":"Epic Characters / Эпичные персонажи",
+   "description":"Переведенный набор ресурсов для игры после 20-го уровня, по книге Epic Characters. Это homebrew для системы D&D 5e.",
+   "author":"Andrey_B",
+   "version":"1.1",
+   "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 9,
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "module-creatures",
+      "label": "&Мобы из Эпика",
+      "path": "packs/creatures.db",
+      "entity": "Actor",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "epic-classes",
+      "label": "&Эпичные Классы",
+      "path": "packs/epic-classes.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "epic-subclasses",
+      "label": "&Эпичные Подклассы",
+      "path": "packs/epic-subclasses.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "epic-racial-features",
+      "label": "&Эпичные Расовые Черты",
+      "path": "packs/epic-racial-features.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "need-item",
+      "label": "&Связанные предметы",
+      "path": "packs/need-item.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "myth-boons",
+      "label": "&Мифические Дары",
+      "path": "packs/myth-boons.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "myth-maneuvers",
+      "label": "&Мифические Манёвры",
+      "path": "packs/myth-maneuvers.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+    {
+      "name": "myth-spells",
+      "label": "&Мифические Заклинания",
+      "path": "packs/myth-spells.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+	{
+      "name": "epic-class-features",
+      "label": "&Эпичные классовые черты",
+      "path": "packs/epic-class-features.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+	{
+      "name": "spells-ru-ps",
+      "label": "&Заклинания РУ (PS)",
+      "path": "packs/spells-ru-ps.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+	{
+      "name": "spells-ru-hw",
+      "label": "&Заклинания РУ (HW)",
+      "path": "packs/spells-ru-hw.db",
+      "entity": "Item",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    },
+	{
+      "name": "epic-characters-book",
+      "label": "&Эпичные Персонажи Книга",
+      "path": "packs/epic-characters-book.db",
+      "entity": "JournalEntry",
+      "module": "epic-characters",
+      "system": "dnd5e"
+    }
+  ],
+  "system": [],
+  "relationships": [],
+  "socket": false,
+  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
